@@ -1,6 +1,5 @@
 <DOCTYPE! html>
 <html>
-<body>
 <style>
 body {
     background-color: #efeee7;
@@ -26,16 +25,16 @@ h2 {
     font-size: 24px;
     margin: 20px;
     padding: 20px;
-    text-align: justify;
+    text-align: left;
 }
 
 .container {
    width: 1024px;
-   text-align: center;
+   text-align: left;
    margin: 0 auto;
 }
 
-#main-bio, #contact-info, #bio-image {
+#main-bio, #bio-image {
     float: left;
 }
 #main-bio {
@@ -43,11 +42,11 @@ h2 {
 }
 #contact-info{
     width: 30%;
-    text-align: justify;
+    text-align: left;
     font-size: 20px;
 }
-#contact-info-specs{
-    text-align: justify;
+.contact-info-specs{
+    text-align: left;
     width: 30%;
 }
 #bio-image{
@@ -66,17 +65,23 @@ width: 1024px;
 
 </style>
 
-<div class="container">
+<body>
+
 <title> Student Biography Page </title>
 
-<h1> Student Bio <h1>
+<header>
+    <h1> Student Bio <h1>
+</header>
+
+<div class="container">
 
 <h2 id="main-bio"> Ronaldo DeGuzman <h2>
+    <img id="bio-image" src="http://www.argentarts.com/uploads/Tyrion_Lannister_WIP2.jpg" alt="Tyrion" />
 <br>
 <br>
 <br>
     <p> 
-        <div> I am new to coding and programming.  
+             I am new to coding and programming.  
                 However, I am very motivated to learn more computer languages and become fluent in them.  
                 My background is in healthcare. 
                 The goal is to guide my background in the health and medical field into the path of computer programming and software development.  
@@ -85,25 +90,24 @@ width: 1024px;
                 The objective is to create software that advances our knowledge in health and medical industry.
                 <br>
                 <br>
-                One of my hobbies are music production/egineering.  I started making music at 17 years old.
-                However, I stopped within a year.  I regret distancing myself from music production/engineering 
-                as I focused on playing football in college and school.  After 7 years, I realized I found myself 
-                gravitating towards this hobby of mine without effort and awareness.
-        </div>  
+                One of my hobbies are music production/egineering.  
+                I started making music at 17 years old.
+                However, I stopped within a year.  
+                I regret distancing myself from music production/engineering 
+                as I focused on playing football in college and school.  
+                After 7 years, I realized I found myself 
+                gravitating towards this hobby of mine without effort and awareness. 
         </p>
 
-<img id="bio-image" src="http://www.argentarts.com/uploads/Tyrion_Lannister_WIP2.jpg" alt="Tyrion" />
 
 <h2 id="contact-info"> Contact Info </h2>
-<br>
-<br>
-<br>
 <p id="contact-info-specs">
 <ul>
-    <li>email: rbdeguzman@dons.usfca.edu</li>
-    <li>Github: rbdjur</li>
-    <li>Portfolio: Coming soon</li>
+    <li><strong>Email:</strong> <a href="mailto:rbdeguzman@dons.usfca.edu">rbdeguzman@dons.usfca.edu</a></li>
+    <li><strong>Github:</strong> <a href="https://github.com/rbdjur">rbdjur</a></li>
+    <li><strong>Portfolio:</strong><a href=" ">Coming soon</a></li>
 </ul>
+</div>
 </body>
 
 
